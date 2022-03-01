@@ -1,0 +1,9 @@
+.App-header {
+  margin: 1px 0;
+}
+
+.img-fluid {
+  display: block;
+  margin: auto;
+  max-width: 750px;
+}

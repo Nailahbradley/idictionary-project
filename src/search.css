@@ -10,9 +10,10 @@ input {
   font-size: 22px;
 }
 .wrapper {
-  min-height: 100vh;
+  min-height: 12vh;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 .search-box {
   background: #5e18e8;

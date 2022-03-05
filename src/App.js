@@ -12,7 +12,18 @@ export default function App() {
         <main>
           <Search />
         </main>
-        <footer className="text-center">Coded by Nailah Bradley </footer>
+        <footer className="text-center">
+          {" "}
+          <a
+            href="https://github.com/Nailahbradley/idictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Open-source{" "}
+          </a>
+          code by Nailah Bradley
+        </footer>
       </div>
     </div>
   );

@@ -5,44 +5,56 @@ import Display from "./Display";
 import "./search.css";
 
 export default function Search() {
-  let [keyword, setkeyword] = useState(null);
+  let [keyword, setkeyword] = useState("peaceful");
   let [define, setdefine] = useState(null);
+  let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
     setdefine(response.data[0]);
   }
-
-  function search(event) {
-    event.preventDefault();
-
+  function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
   }
 
   function updateKeyword(event) {
     setkeyword(event.target.value);
   }
+  function load() {
+    setLoaded(true);
+    search();
+  }
 
-  return (
-    <div className="definition">
-      <div className="search">
-        <div className="wrapper">
-          <form onSubmit={search}>
-            <div className="search-box">
-              <button>
-                <BsSearch />
-              </button>
-              <input
-                type="text"
-                className="input-search"
-                placeholder="Search for a word"
-                onChange={updateKeyword}
-              ></input>
-            </div>
-          </form>
+  if (loaded) {
+    return (
+      <div className="definition">
+        <div className="search">
+          <div className="wrapper">
+            <form onSubmit={handleSubmit}>
+              <div className="search-box">
+                <button>
+                  <BsSearch />
+                </button>
+                <input
+                  type="text"
+                  className="input-search"
+                  placeholder="Search for a word"
+                  onChange={updateKeyword}
+                ></input>
+              </div>
+            </form>
+          </div>
+          <Display define={define} />
         </div>
-        <Display define={define} />
       </div>
-    </div>
-  );
+    );
+  } else {
+    load();
+    return "Loading";
+  }
 }

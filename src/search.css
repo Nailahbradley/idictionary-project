@@ -16,11 +16,12 @@ input {
   align-content: center;
 }
 .search-box {
-  background: #5969ca;
+  background: white;
   position: relative;
-  padding: 7px;
+  padding: 5px;
   border-radius: 50px;
   display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .search-box button {
   width: 50px;
@@ -56,7 +57,7 @@ button {
   margin: auto;
   display: block;
   position: relative;
-  top: -9px;
+  top: 10px;
   max-width: 640px;
   width: 700px;
 }

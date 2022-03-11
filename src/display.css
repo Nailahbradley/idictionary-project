@@ -4,3 +4,25 @@ h2 {
 .Meaning {
   text-align: left;
 }
+.wordAndPhonetics {
+  background-color: white;
+  padding: 11px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bolder;
+}
+h2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  color: #fee059;
+}
+.meaning {
+  background-color: white;
+  padding: 20px;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-family: "Fredoka", sans-serif;
+}

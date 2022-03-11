@@ -16,7 +16,7 @@ input {
   align-content: center;
 }
 .search-box {
-  background: #5e18e8;
+  background: #5969ca;
   position: relative;
   padding: 7px;
   border-radius: 50px;
@@ -26,9 +26,9 @@ input {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #b698f1;
+  background: #efdcf2;
   align-items: center;
-  color: white;
+  color: #5969ca;
   border: none;
   margin-right: 15px;
   cursor: pointer;
@@ -36,8 +36,8 @@ input {
 .search-box .input-search {
   outline: none;
   border: 0;
-  background: #b698f1;
-  color: white;
+  background: #efdcf2;
+  color: #5969ca;
   padding: 15px 22px;
   width: 300px;
   height: 50px;
@@ -45,7 +45,7 @@ input {
 }
 
 ::placeholder {
-  color: white;
+  color: #5969ca;
 }
 button {
   font-size: 19px;
@@ -56,7 +56,7 @@ button {
   margin: auto;
   display: block;
   position: relative;
-  top: -40px;
+  top: -9px;
   max-width: 640px;
   width: 700px;
 }

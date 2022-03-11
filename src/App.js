@@ -1,4 +1,4 @@
-import logo from "./logo.jpg";
+import logo from "./logo.gif";
 import Search from "./Seach";
 
 import "./App.css";
@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header"></header>
-        <img src={logo} alt="logo" className="img-fluid" />
+        <img src={logo} alt="loading..." className="img-fluid" />
         <main>
           <Search />
         </main>

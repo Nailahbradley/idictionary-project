@@ -1,0 +1,14 @@
+.button {
+  border: 2px solid #d5bce7;
+  text-decoration: none;
+  padding: 7px 8px;
+  border-radius: 32px;
+  color: #d5bce7;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.phoneticText {
+  color: gray;
+  font-weight: lighter;
+}

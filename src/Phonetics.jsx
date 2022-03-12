@@ -1,14 +1,21 @@
 import React from "react";
+import "./phonetics.css";
+import { BsMegaphone } from "react-icons/bs";
 
 export default function Phonetics(props) {
   console.log(props.phonetics);
   if (props.phonetic) {
     return (
       <div className="Phonetics">
-        <a href={props.phonetic.audio} rel="noreferrer" target="_blank">
-          Listen
+        <a
+          className="button"
+          href={props.phonetic.audio}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BsMegaphone />
         </a>
-        {props.phonetic.text}
+        <span className="phoneticText"> {props.phonetic.text}</span>
       </div>
     );
   } else {

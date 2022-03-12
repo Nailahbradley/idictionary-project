@@ -1,0 +1,17 @@
+.Meaning h3 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+.definintion {
+  line-height: 25px;
+  font-size: 18px;
+  color: #495057;
+  font-weight: 800;
+}
+.example {
+  color: #adb5bd;
+  font-size: 17px;
+  line-height: 30px;
+}

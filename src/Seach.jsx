@@ -5,7 +5,7 @@ import Display from "./Display";
 import "./search.css";
 
 export default function Search() {
-  let [keyword, setkeyword] = useState("peaceful");
+  let [keyword, setkeyword] = useState("universe");
   let [define, setdefine] = useState(null);
   let [loaded, setLoaded] = useState(false);
 

@@ -1,0 +1,8 @@
+li {
+  display: inline-block;
+  text-align: left;
+  padding-right: 48px;
+  margin-left: -32px;
+  color: #6c757d;
+  font-size: 15px;
+}

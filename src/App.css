@@ -15,11 +15,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
 }
 footer {
-  text-align: center;
   margin: 30px 0;
   color: gray;
   position: relative;
-  bottom: -287px;
+  bottom: -242px;
 }
 a {
   color: gray;

@@ -9,23 +9,32 @@ h2 {
   padding: 11px;
   position: relative;
   line-height: 50px;
-  bottom: 10px;
-  border-radius: 11px;
-  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  bottom: -38px;
+  border-radius: 10px;
   font-family: "Fredoka", sans-serif;
   font-weight: bolder;
   padding-bottom: 8px;
+  margin: -57px;
+  max-width: 1400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 h2 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   color: #fee059;
   font-size: 40px;
+  max-width: 1400px;
 }
 .meaning {
   background-color: white;
   padding: 20px;
-  border-radius: 11px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
   font-family: "Fredoka", sans-serif;
+  max-width: 1400px;
+  margin: -60px;
+  position: relative;
+  bottom: -106px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }

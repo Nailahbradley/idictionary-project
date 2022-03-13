@@ -3,7 +3,6 @@ import "./phonetics.css";
 import { BsMegaphone } from "react-icons/bs";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics);
   if (props.phonetic) {
     return (
       <div className="Phonetics">
